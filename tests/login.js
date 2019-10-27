@@ -4,11 +4,11 @@ module.exports = {
         const login = {
             button:'._3ioN70chUh._1FEpprw_Km._3Uc73lzxcf',
             input: '#passp-field-login',
-            value: 'autotestsrogov'
+            value: process.env.YANDEX_LOGIN
         }
         const password = {
             selector:'[type="password"]',
-            value:'autotestsrogov!23'
+            value:process.env.YANDEX_PASSWORD
         }
         const loginSuccess = {
             profileSelector: '.pFhTbV17qj',

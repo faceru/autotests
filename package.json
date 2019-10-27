@@ -7,6 +7,7 @@
         "test": "tests"
     },
     "dependencies": {
+        "dotenv": "^8.2.0",
         "nightwatch": "^1.2.4"
     },
     "devDependencies": {
