@@ -1,0 +1,20 @@
+{
+    "name": "lol",
+    "version": "1.0.0",
+    "description": "",
+    "main": "globals.js",
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {
+        "nightwatch": "^1.2.4"
+    },
+    "devDependencies": {
+        "chromedriver": "^77.0.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC"
+}
