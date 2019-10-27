@@ -1,27 +1,45 @@
 module.exports = {
     'beru.ru - login': function(browser){
-        const loginButton = '._3ioN70chUh._1FEpprw_Km._3Uc73lzxcf';
+        //constants
+        const login = {
+            button:'._3ioN70chUh._1FEpprw_Km._3Uc73lzxcf',
+            input: '#passp-field-login',
+            value: 'autotestsrogov'
+        }
+        const password = {
+            selector:'[type="password"]',
+            value:'autotestsrogov!23'
+        }
+        const loginSuccess = {
+            profileSelector: '.pFhTbV17qj',
+            headerTextSelector: '._1G9kMUZOVq'
+        }
+        const timeouts = {
+            request: 5000,
+            animation: 3000
+        }
+        //start tests
         browser.
             url('https://beru.ru/', () => {
                 console.log('Loading ber.ru');
             })
-            .waitForElementVisible(loginButton, 5000)
-            .click(loginButton)
-            .waitForElementVisible('#passp-field-login', 5000)
-            .setValue('#passp-field-login', 'autotestsrogov')
-            .getValue('#passp-field-login', result => {
-                      browser.assert.equal(result.value, 'autotestsrogov');
+            .waitForElementVisible(login.button, timeouts.request)//wait for login buttin
+            .click(login.button) //redirect to login
+            .waitForElementVisible(login.input, timeouts.request) //wait for loading login page
+            .setValue(login.input, login.value) //set login value
+            .getValue(login.input, result => { //check login value for setting
+                      browser.assert.equal(result.value, login.value);
             })
-            .submitForm('form')
-            .waitForElementVisible('[type="password"]', 5000)
-            .setValue('[type="password"]', 'autotestsrogov!23')
-            .getValue('[type="password"]', result => {
-                browser.assert.equal(result.value, 'autotestsrogov!23');
+            .submitForm('form') //submit login
+            .waitForElementVisible(password.selector, timeouts.request)//wait for success login submitting
+            .setValue(password.selector, password.value) //set password
+            .getValue(password.selector, result => { //check pass was setting
+                browser.assert.equal(result.value, password.value);
             })
-            .submitForm('form')
-            .waitForElementVisible('._1G9kMUZOVq', 10000)
-            .getAttribute('.pFhTbV17qj', 'textContent', res => {
-                browser.assert.equal(res.value, 'Мой профиль');
+            .submitForm('form') //submit password
+            .waitForElementVisible(loginSuccess.headerTextSelector, timeouts.request) //wait for success pass sub
+            .getAttribute(loginSuccess.profileSelector, 'textContent', result => { //check login success
+                browser.assert.equal(result.value, 'Мой профиль');
                 console.log('Авторизация прошла успешно');
             })
             .end();
