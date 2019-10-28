@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
             failures="0"
-            tests="1">
+            tests="2">
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="1" time="6.662" timestamp="">
+    tests="2" time="7.681" timestamp="">
   
-    <testcase name="beru.ru - login" classname="login" time="6.662" assertions="7">
+    <testcase name="url" classname="login" time="2.703" assertions="0">
+    </testcase>
+  
+    <testcase name="login" classname="login" time="4.978" assertions="7">
 
     
 

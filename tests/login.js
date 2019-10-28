@@ -1,5 +1,8 @@
+
 module.exports = {
-    'beru.ru - login': function(browser){
+    
+    
+    'login': function(browser){
         //constants
         const login = {
             button:'._3ioN70chUh._1FEpprw_Km._3Uc73lzxcf',
@@ -19,10 +22,10 @@ module.exports = {
             animation: 3000
         }
         //start tests
-        browser.
-            url('https://beru.ru/', () => {
-                console.log('Loading ber.ru');
-            })
+        browser
+        .url('https://beru.ru/', () => {
+            console.log('Loading https://beru.ru/');
+        })
             .waitForElementVisible(login.button, timeouts.request)//wait for login buttin
             .click(login.button) //redirect to login
             .waitForElementVisible(login.input, timeouts.request) //wait for loading login page
