@@ -1,6 +1,8 @@
-
+var connect = require('./connect')
 module.exports = {
-    
+    'connect':function(browser){
+        connect.connect(browser, 'https://beru.ru/')
+    },
     
     'login': function(browser){
         //constants
@@ -21,11 +23,9 @@ module.exports = {
             request: 5000,
             animation: 3000
         }
-        //start tests
+      
+        
         browser
-        .url('https://beru.ru/', () => {
-            console.log('Loading https://beru.ru/');
-        })
             .waitForElementVisible(login.button, timeouts.request)//wait for login buttin
             .click(login.button) //redirect to login
             .waitForElementVisible(login.input, timeouts.request) //wait for loading login page
@@ -45,9 +45,12 @@ module.exports = {
                 browser.assert.equal(result.value, 'Мой профиль');
                 console.log('Авторизация прошла успешно');
             })
-            .end();
+            
            
             
+    },
+    'breakTest':function(browser){
+        browser.end()
     }
     
   };

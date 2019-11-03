@@ -5,12 +5,12 @@
 
   <testsuite name="login"
     errors="0" failures="0" hostname="" id="" package="login" skipped="0"
-    tests="2" time="7.681" timestamp="">
+    tests="2" time="7.610" timestamp="">
   
-    <testcase name="url" classname="login" time="2.703" assertions="0">
+    <testcase name="connect" classname="login" time="3.002" assertions="0">
     </testcase>
   
-    <testcase name="login" classname="login" time="4.978" assertions="7">
+    <testcase name="login" classname="login" time="4.608" assertions="7">
 
     
 

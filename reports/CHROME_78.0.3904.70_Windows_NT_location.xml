@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="2">
 
   <testsuite name="location"
-    errors="0" failures="0" hostname="" id="" package="location" skipped="0"
-    tests="2" time="17.55" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="location" skipped="3"
+    tests="2" time="6.442" timestamp="">
   
-    <testcase name="location" classname="location" time="3.468" assertions="5">
-
-    
-
-    
-
-    
-
-    
-
-    
+    <testcase name="connect" classname="location" time="2.770" assertions="0">
     </testcase>
   
-    <testcase name="login" classname="location" time="14.09" assertions="7">
+    <testcase name="location" classname="location" time="3.672" assertions="7">
 
     
 
@@ -32,14 +22,34 @@
 
     
 
-    
+      <failure message="Failed [equal]: (&#39;Город: \nХабаровск&#39; == &#39;Город: \nХвалынск&#39;) - expected [0;32m&#34;Город: 
+Хвалынск&#34;[0m but got: [0;31m&#34;Город: 
+Хабаровск&#34;[0m">    at NightwatchAPI.browser.waitForElementVisible.click.waitForElementVisible.moveToElement.setValue.waitForElementVisible.click.waitForElementVisible.click.getText.result (C:\Users\User\Desktop\сессия\autoTests\tests\location.js:47:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
 
-    
+    <failure message="    at NightwatchAPI.browser.waitForElementVisible.click.waitForElementVisible.moveToElement.setValue.waitForElementVisible.click.waitForElementVisible.click.getText.result (C:\Users\User\Desktop\сессия\autoTests\tests\location.js:47:32)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
 
   
 
+  
+    
+    <testcase
+      name="auth" classname="location">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="citytest" classname="location">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="breakTest" classname="location">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
