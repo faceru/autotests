@@ -13,6 +13,7 @@ module.exports = {
             chooseFirstSelector: '#react-autowhatever-region--item-0',
             subModal: '._4qhIn2-ESi.Pjv3h3YbYr.THqSbzx07u',
             inputContainer:'._2JDvXzYsUI',
+            inputDiv: '._8iW7gwBP58',
             input: '._8iW7gwBP58 input._2JDvXzYsUI',
             clearButton: '._8iW7gwBP58 button'
         }
@@ -27,13 +28,11 @@ module.exports = {
         browser
             .waitForElementVisible(region.opener, timeouts.request)
             .click(region.opener)
-            .waitForElementVisible(modal.modal, timeouts.animation)
-            
-            
+            .waitForElementVisible(modal.modal, timeouts.animation) 
             .moveToElement(modal.inputContainer, 100, 100, function() {
                     browser.waitForElementVisible(modal.inputContainer, 500, function () {
                        
-                        browser.click('._8iW7gwBP58')
+                        browser.click(modal.inputDiv)
                         .waitForElementVisible(modal.clearButton, 1000)
                         .click(modal.clearButton)
                     }, "focused!!!");
@@ -47,7 +46,7 @@ module.exports = {
              .waitForElementVisible(modal.subModal, timeouts.animation)
             .click(modal.subModal)
             .getText(region.opener, result => {
-                browser.assert.equal(result.value, `Город: \n${city.hv}`);
+                browser.verify.equal(result.value, `Город: \n${city.hv}`);
             })
             
     },
@@ -58,7 +57,6 @@ module.exports = {
         
         browser.moveToElement('[data-zone-name="HeaderUserBadge"]', 20, 20, function() {
             browser.waitForElementVisible('._2ubPaMe58x._3ZZzYB8tbn', 500, function () {
-                
                 browser.click('[href="/my/settings?track=menu"]');
             }, "hovered!!!");
         })
