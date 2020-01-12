@@ -1,16 +1,147 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="0"
+<testsuites errors="1"
+            failures="31"
             tests="3">
 
   <testsuite name="catalog"
-    errors="0" failures="0" hostname="" id="" package="catalog" skipped="0"
-    tests="3" time="19.43" timestamp="">
+    errors="1" failures="31" hostname="" id="" package="catalog" skipped="0"
+    tests="3" time="26.73" timestamp="">
   
-    <testcase name="connect" classname="catalog" time="3.281" assertions="0">
+    <testcase name="connect" classname="catalog" time="3.577" assertions="0">
     </testcase>
   
-    <testcase name="catalog" classname="catalog" time="16.09" assertions="39">
+    <testcase name="catalog" classname="catalog" time="23.11" assertions="56">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+      <failure message="Failed [equal]: (true == false) - expected [0;32m&#34;false&#34;[0m but got: [0;31m&#34;true&#34;[0m">    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
 
     
 
@@ -22,76 +153,10 @@
 
     
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
+    <failure message="    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\User\Desktop\сессия\autoTests\tests\catalog.js:82:35)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
     </testcase>
   
-    <testcase name="breakTest" classname="catalog" time="0.06100" assertions="0">
+    <testcase name="breakTest" classname="catalog" time="0.04900" assertions="0">
     </testcase>
   
 

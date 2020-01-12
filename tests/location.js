@@ -1,10 +1,12 @@
 var connect = require('./connect');
 var login = require('./login');
+
 module.exports = {
     'connect':function(browser){
         connect.connect(browser, 'https://beru.ru/')
     },
     'location': function(browser) {
+        // selectors
         const region = {
             opener:'[data-auto="region-form-opener"]'
         }
@@ -60,9 +62,9 @@ module.exports = {
                 browser.click('[href="/my/settings?track=menu"]');
             }, "hovered!!!");
         })
-        .getText('[data-auto="region-form-opener"]._2XJ6yiRp5w', result => {
+        .getText('[data-auto="region-form-opener"].zB1fta3NQ5', result => {
             browser.getText('[data-auto="region"]', res=>{
-                browser.assert.equal(result.value, res.value);
+                browser.verify.equal(result.value, res.value);
             })
         })
     },

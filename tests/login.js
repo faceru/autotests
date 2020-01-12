@@ -5,7 +5,7 @@ module.exports = {
     },
     
     'login': function(browser){
-        //constants
+        // selectors
         const login = {
             button:'._3ioN70chUh._1FEpprw_Km._3Uc73lzxcf',
             input: '#passp-field-login',

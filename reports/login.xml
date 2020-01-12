@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="connect" classname="login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="login" classname="login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="breakTest" classname="login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
